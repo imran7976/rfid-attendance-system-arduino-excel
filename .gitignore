@@ -1,0 +1,36 @@
+# Prerequisites
+*.d
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+
+# Arduino
+.pio/
+.pioenvs/
+.piolibdeps/
+*.orig
+*.tmp
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+*.xlsx
+~$*.xlsx
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -18,10 +18,10 @@
 #define RST_PIN         9   // Reset pin
 // MOSI = Pin 11, MISO = Pin 12, SCK = Pin 13 (Hardware SPI)
 
-// Indicators & Alerts
-#define BUZZER_PIN      8   // Piezo Buzzer for audio feedback
-#define LED_GREEN_PIN   5   // Green LED: Access Granted / Attendance Logged
-#define LED_RED_PIN     6   // Red LED: Access Denied / Duplicate / Error
+// Indicators & Alerts (Matching Schematic)
+#define BUZZER_PIN      2   // Green wire: Piezo Buzzer
+#define LED_RED_PIN     3   // Purple wire: Red LED (220 ohm resistor)
+#define LED_GREEN_PIN   4   // Cyan/Teal wire: Green LED (220 ohm resistor)
 
 // I2C 16x2 LCD Display Configuration
 #define LCD_I2C_ADDR    0x27  // Standard I2C address (use 0x3F if 0x27 doesn't display)

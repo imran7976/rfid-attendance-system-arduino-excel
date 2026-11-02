@@ -36,9 +36,9 @@ The system interfaces an **MFRC522 RFID reader** (via SPI), a **16x2 Character L
 ### C. Audio-Visual Feedback Indicators
 | Component | Connection Pin | Current Limiter | Purpose |
 | :--- | :--- | :--- | :--- |
-| **Green LED** | **Pin 5** | $220\,\Omega$ Resistor | Lights up on valid attendance check-in |
-| **Red LED** | **Pin 6** | $220\,\Omega$ Resistor | Lights up on access denied / duplicate card |
-| **Active Buzzer** | **Pin 8** | Direct logic | Audio chirp (single for success, long for error) |
+| **Active Buzzer** | **Pin 2** (Green wire) | Direct logic | Audio feedback (confirmation chime or warning alert) |
+| **Red Status LED** | **Pin 3** (Purple wire) | $220\,\Omega$ Resistor ($R_1$) | Lights up on access denied / duplicate card |
+| **Green Status LED** | **Pin 4** (Cyan wire) | $220\,\Omega$ Resistor ($R_2$) | Lights up on valid attendance check-in |
 
 ---
 
